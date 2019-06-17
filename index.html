@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <body style="background:lavender">
+<body>
+        
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="acad.html">Academic Projects</a>
+    <a href="ach.html">Achievements</a>
+    <a href="work.html">Work Experience</a>
+    <a href="extra.html">Extra-Currics</a>
+    <a href="contact.html">Contact</a>
+</div>
+<!--       
+<img style="position:absolute; TOP:0px; LEFT:970px; width:200px; height:575px" src="/assets/bamboo.jpg"> -->
+
+<img style="position:absolute; TOP:55px; LEFT:520px; width:200px; height:200px" src="/assets/profile.png">
+
+<img style="position:absolute; TOP:400px; LEFT:340px; width:550px; height:75px" src="/assets/acads.png">
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Slide</span>
+  
+  <div id="myname" class="name">
+      <h2>Samarth Arora</h2>
+      <h4>Delhi, India</h4>
+  </div>
+
+
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+     
+</body>
+</html>
