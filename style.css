@@ -77,14 +77,14 @@ body {
    position:absolute; TOP:580px; LEFT:250px; width:500px; height:2000px
 }
 
-/* 
+ 
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  } */
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
+    .one{padding-top: 15px;}
+    .two{padding-top: 15px;}
+    .three{padding-top: 15px;}
+    .four{padding-top: 15px;}
+    .five{padding-top: 15px;}
+  }
+ 
