@@ -78,12 +78,7 @@ body {
 }
 
  
-  @media screen and (max-height: 450px) {
+  @media screen and (max-width: 600px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-    .one{padding-top: 15px;}
-    .two{padding-top: 15px;}
-    .three{padding-top: 15px;}
-    .four{padding-top: 15px;}
-    .five{padding-top: 15px;}
   }
