@@ -38,7 +38,7 @@ body {
   }
   .name {
      /* padding-left: 200px; */
-    padding:190px 5px 5px 490px;
+    padding:190px 5px 5px 390px;
     text-decoration: none;
     font-size: 20px;
     color: dimgrey;
@@ -47,8 +47,12 @@ body {
 
 .yoyo {
   /* padding-left: 200px; */
- padding:20px 5px 5px 900px;
- text-decoration: none;
+  position:absolute; 
+  TOP:260px; 
+  LEFT:650px; 
+  width:200px; 
+  height:200px; 
+text-decoration: none;
  font-size: 12px;
  color:#111111;
  display: block;
